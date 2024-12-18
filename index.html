@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Text & Binary Converter</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Text & Binary Converter</h1>
+
+    <p>Convert your text into binary and decode binary back to text.</p>
+
+    <textarea id="inputText" placeholder="Enter text or binary here..."></textarea>
+
+    
+
+    <div class="buttons">
+
+      <button onclick="convertToBinary()">Text to Binary</button>
+
+      <button onclick="convertToText()">Binary to Text</button>
+
+    </div>
+
+    <textarea id="outputText" placeholder="Output will appear here..." readonly></textarea>
+
+    <button id="copyButton" onclick="copyToClipboard()">Copy</button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
